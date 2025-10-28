@@ -35,7 +35,16 @@ A full-stack lead management application built with React (Vite) and Node.js/Exp
 
 ## Installation
 
-### Clone the repository
-```bash
-git clone https://github.com/SurajBisht105/lead-management-system.git
-cd lead-management-system
+# Install backend dependencies
+cd server
+npm install
+
+# Install frontend dependencies
+cd ../client
+npm install
+
+# Start backend server (from server directory)
+npm run dev
+
+# Start frontend development server (from client directory)
+npm run dev
